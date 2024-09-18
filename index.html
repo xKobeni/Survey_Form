@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SurveyForm</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- MAIN -->
+   <div class="main"> 
+
+      <!-- Header -->
+      <header>
+         <h1> freeCodeCamp Survey Form </h1>
+         <p><i>Thank you for taking the time to help us improve the platform</i></p>
+      </header>
+
+      <!-- Feildset -->
+
+      <fieldset>
+         <label for="Name">Name</label>
+         <input type="text" placeholder="Enter your Name">
+
+         <label for="Email">Email</label>
+         <input type="email" placeholder="Enter your Email">
+
+         <label for="Age" >Age (optional)</label>
+         <input type="number" placeholder="Age">
+
+         <label for="Desc">Which option best describes your current role?</label>
+         <select>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to Say</option>
+            <option value="5">Other</option>
+         </select>
+
+         <label for="option">Would you Recommend freeCodeCamp to a friend?</label>
+         <label><input type="radio" class="radio" > Definitley</label>
+         <label><input type="radio" class="radio" > Maybe</label>
+         <label><input type="radio" class="radio" > Not Sure</label>
+         
+         <label for="favoritefeature"> What is your favorite feature of freeCodeCamp?</label>
+         <select placeholder="Select an Option">
+            <option value="1">Select an Option</option>
+            <option value="2">Null</option>
+            <option value="3">Null</option>
+         </select>
+
+         <label for="improved">What would you like to improved? (check all that apply)</label>
+         <label><input type="checkbox"> Front-end Projects </label>
+         <label><input type="checkbox"> Back-end Projects </label>
+         <label><input type="checkbox"> Data Visualization </label>
+         <label><input type="checkbox"> Challenges </label>
+         <label><input type="checkbox"> Open Source Community </label>
+         <label><input type="checkbox"> Gitter help rooms  </label>
+         <label><input type="checkbox"> Videos </label>
+         <label><input type="checkbox"> City Meetups </label>
+         <label><input type="checkbox"> Wiki </label>
+         <label><input type="checkbox"> Forum </label>
+         <label><input type="checkbox"> Additional Courses </label>
+
+         <label>Any comments or suggestions?</label>
+         <textarea placeholder="Enter your comments here...."></textarea>
+         
+         <label> <button type="button">Submit</button> </label>
+
+      </fieldset>
+
+      <!--Footer-->
+      <footer>
+         <p>&copy August 2024 & September 2024</p>
+      </footer>
+
+   </div>
+</body>
+
+</html>
